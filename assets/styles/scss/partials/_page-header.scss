@@ -1,0 +1,90 @@
+.top-bar {
+	border-top:6px solid $primary-color;
+	color:$white;
+	z-index:99999;
+	a {
+		color:$white;
+		font-family: 'Oswald', sans-serif;
+		text-transform:uppercase;
+		&:after {
+			border-color:$secondary-color;
+		}
+	}
+	.logo {
+		a {
+			display: block;
+		    background: $primary-color;
+		    padding: 20px;
+		    margin-bottom: -65px;
+		    max-width: 225px;
+		    z-index:99;
+		    position:relative;
+		}
+	}
+	.dropdown.menu>li>a {
+		padding:1.5rem 1rem;
+	}
+	
+	.submenu {
+		z-index:999;
+		background:$secondary-color;
+		padding:40px;
+	}
+	
+	@include breakpoint(medium down) {
+		padding-left:0;
+		.logo {
+			a {
+				margin-bottom:0;
+				max-width:175px;
+			}
+		}
+	}
+	&.sticky {
+		position:fixed;
+		width:100%;
+		top:0;
+	}
+}
+
+.top-bar-extras {
+	.menu {
+		li {
+			a {
+				font-size:12px;	
+				text-transform:none;
+				font-family:$body-font-family;
+				font-weight:800;
+				color:$white;
+				@include breakpoint(large) {
+					padding-left:0.5rem!important;
+					padding-right:0.5rem!important;
+				}
+				&:hover {
+					color:$secondary-color;
+				}
+			}
+		}
+	}
+}
+
+.utility{
+	height:50px;
+	background:$black;
+}
+
+.off-canvas {
+	background:#222;
+}
+
+#offcanvas-nav {
+	margin-top:1.5rem;
+	* {
+		color:$white;
+	}
+	a {
+		font-family:'Oswald' , sans-serif;
+		text-transform:uppercase;
+		font-size:18px;
+	}
+}
