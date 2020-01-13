@@ -80,25 +80,25 @@ get_header();
 			$query = new WP_Query( $args );
 			?>
 			<div class="tab-slider tab-2">
-			<?php if ( $query->have_posts() ) { ?>
-				<?php while ( $query->have_posts() ) { ?>
-				<?php $query->the_post(); ?>
-					<div class="slide" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
-						<div class="grid-container">
-							<div class="grid-x">
-								<div class="cell large-7">
-									<div class="slide-content">
-	                                    <h2><?php the_title(); ?></h2>
-	                                    <p><?php echo wp_trim_words( get_the_content(), 30, '...' ); ?></p>
-	                                    <a href="<?php the_permalink(); ?>" class="button" tabindex="0">LEARN MORE</a>
+				<?php if ( $query->have_posts() ) { ?>
+					<?php while ( $query->have_posts() ) { ?>
+					<?php $query->the_post(); ?>
+						<div class="slide" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
+							<div class="grid-container">
+								<div class="grid-x">
+									<div class="cell large-7">
+										<div class="slide-content">
+		                                    <h2><?php the_title(); ?></h2>
+		                                    <p><?php echo wp_trim_words( get_the_content(), 30, '...' ); ?></p>
+		                                    <a href="<?php the_permalink(); ?>" class="button" tabindex="0">LEARN MORE</a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					<?php } ?>
 				<?php } ?>
-			<?php } ?>
-			<?php wp_reset_postdata(); ?>
+				<?php wp_reset_postdata(); ?>
 			</div>
 		</div>
 		<div class="tabs-panel" id="panel3">
