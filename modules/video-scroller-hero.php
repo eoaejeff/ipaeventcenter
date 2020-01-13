@@ -9,7 +9,7 @@ $query = new WP_Query( $args );
 <section class="home-hero">
 	<div class="video-hero" id="video-hero">
 	 	<div class="container text-center">
-		 	<!--<h1><span>45,000 SQUARE FEET</span><br>ENDLESS POSSIBILITIES</h1>-->
+		 	<h1><span>45,000 SQUARE FEET</span><br>ENDLESS POSSIBILITIES</h1>
 	 	</div>
 	 	<script>
 	        var videoId;
