@@ -15,11 +15,11 @@ $query = new WP_Query( $args );
 	        var videoId;
 	        videoID = 'qFA2pRbvANU';
 	    </script>
-	 	<div class="video-background show-for-medium">
+	 	<!--<div class="video-background">
 	        <div class="video-foreground" id="video-foreground">
 	            <div id="videoPlayer"></div>
 	        </div>
-		</div>		
+		</div>	-->	
 	</div>
 	<div class="promo-slider">
 		<?php if ( $query->have_posts() ) { ?>
