@@ -7,8 +7,8 @@ $query = new WP_Query( $args );
 ?>
 
 <section class="home-hero">
-	<div class="video-hero" id="video-hero">
-	 	<div class="container text-center">
+	<div class="video-hero" id="video-hero" style="background-image:url(<?php the_post_thumbnail_url(); ?>);background-size:cover;">
+	 	<div class="container text-center hide-for-medium">
 		 	<h1><span>45,000 SQUARE FEET</span><br>ENDLESS POSSIBILITIES</h1>
 	 	</div>
 	 	<script>
