@@ -14,7 +14,7 @@
 					<p>Our Professional Event Planners will work with you to make the experience of planning your event easy. </p>
 					<p>Helping you to create an <b>unforgettable event</b> is what we do!</p>
 					<p>Call <strong>732-577-8200 EXT.383</strong></p>
-					<a class="button text-center" role="button" href="https://new-event-center.local/contact-us/" target="_self" rel="noopener noreferrer"> Request Information</a>
+					<a class="button text-center" role="button" href="<?php echo site_url(); ?>/contact-us/" target="_self" rel="noopener noreferrer"> Request Information</a>
 				</div>
 			</div>		
 		</div>
