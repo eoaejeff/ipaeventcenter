@@ -19,6 +19,7 @@
 		    max-width: 225px;
 		    z-index:99;
 		    position:relative;
+		    transition:all 0.35s ease-in;
 		}
 	}
 	.dropdown.menu>li>a {
@@ -44,6 +45,13 @@
 		position:fixed;
 		width:100%;
 		top:0;
+		
+		.logo a {
+			padding:10px;
+			max-width:120px;
+			margin-bottom:0;
+			transition:all 0.35s ease-out;
+		}
 	}
 }
 
