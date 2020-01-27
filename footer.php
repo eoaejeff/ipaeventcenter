@@ -50,7 +50,7 @@
 				    				&nbsp;
 			    				</h4>
 			    				
-			    				<h4 style="font-size:24px;" >Call: (732) 577-8200 <small>x383</small></h4>
+			    				<h4 style="font-size:24px;">Call: <a href="tel:7325778200" style="font-size:24px;">(732) 577-8200 <small>x383</small></a></h4>
 
 		    				</div>
 							
