@@ -37,7 +37,7 @@
 		    				<div class="large-3 medium-6 cell">
 			    				<h4>ADDRESS</h4>
 			    				<p>110 Schanck Rd<br>Freehold, NJ 07728</p>
-			    				<a href="#">Get Directions</a>
+			    				<a href="https://www.google.com/maps/dir//iPlay+America,+110+Schanck+Rd,+Freehold,+NJ+07728/@40.2400861,-74.2827144,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c3d5b37833a23d:0x84d71e4472609e0e!2m2!1d-74.2805257!2d40.240082" target="_blank">Get Directions</a>
 		    				</div>
 		    				<div class="large-3 medium-6 cell">
 			    				<h4 style="font-size:24px;">
