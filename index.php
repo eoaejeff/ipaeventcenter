@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<section class="page-header" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
+<section class="page-header" style="background-image:url('/wp-content/uploads/2019/09/iPlayAmerica_5112017_miller_79.jpg');">
 	<div class="grid-container">
 		<div class="grid-x">
 			<div class="cell header-content">
