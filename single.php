@@ -4,6 +4,8 @@
  */
 
 get_header(); ?>
+
+<?php get_template_part('parts/page-header'); ?>
 			
 <div class="content">
 	

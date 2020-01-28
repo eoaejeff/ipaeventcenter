@@ -6,7 +6,7 @@
  */
 
 // Adjust the amount of rows in the grid
-$grid_columns = 3; ?>
+$grid_columns = 2; ?>
 
 <?php if( 0 === ( $wp_query->current_post  )  % $grid_columns ): ?>
 
@@ -15,7 +15,7 @@ $grid_columns = 3; ?>
 <?php endif; ?> 
 
 		<!--Item: -->
-		<div class="small-12 medium-6 large-4 cell panel" data-equalizer-watch>
+		<div class="small-12 medium-6 large-6 cell panel" data-equalizer-watch>
 		
 			<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article">
 			

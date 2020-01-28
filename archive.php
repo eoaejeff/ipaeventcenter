@@ -6,6 +6,16 @@
  */
 
 get_header(); ?>
+
+	<section class="page-header" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
+	<div class="grid-container">
+			<div class="grid-x">
+				<div class="cell header-content">
+					<h1 class="page-title"><?php the_archive_title(); ?></h1>
+				</div>
+			</div>
+		</div>
+	</section>
 			
 	<div class="content">
 		
@@ -14,11 +24,6 @@ get_header(); ?>
 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 			
 			    <main class="main small-12 medium-8 large-8 cell" role="main">
-				    
-			    	<header>
-			    		<h1 class="page-title"><?php the_archive_title();?></h1>
-						<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
-			    	</header>
 			
 			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				 
