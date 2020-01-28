@@ -19,10 +19,10 @@ get_header();
 <section class="home-intro">
 	<div class="grid-container">
 		<div class="grid-x grid-margin-x grid-margin-y align-middle">
-			<div class="cell medium-9">
+			<div class="cell large-9">
 				<?php the_content(); ?>
 			</div>
-			<div class="cell medium-3">
+			<div class="cell large-3">
 				<a id="virtual-tour" href="https://www.google.com/maps/@40.2405376,-74.2807597,3a,75y,327.68h,87.38t/data=!3m6!1e1!3m4!1sAF1QipNf89YiIIanoa5Nu4FI9QFANplDQpG5Sf5M9BDb!2e10!7i9368!8i4684" target="_blank"><i class="fas fa-video"></i> Take a Virtual Tour!</a>
 			</div>
 		</div>
