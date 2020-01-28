@@ -90,8 +90,37 @@
 }
 
 .utility{
-	height:50px;
+	padding: 8px 2rem;
 	background:$black;
+	
+	.phone {
+		font-size:20px;
+		font-weight:bold;
+		@media (max-width:600px) {
+			font-size:16px;
+		}
+		a {
+			color:$white;
+		}
+		i {
+			color:$secondary-color;
+		}
+	}
+	.socials {
+		h4 {
+			margin-bottom:0;
+			font-size:20px;
+			@media (max-width:600px) {
+				font-size:16px;
+			}
+		}
+		a {
+			color:$white;
+			&:hover {
+				color:$secondary-color;
+			}
+		}
+	}
 }
 
 .off-canvas {
