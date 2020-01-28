@@ -14,11 +14,11 @@
 		</div>
 		<div class="cell small-5 socials text-right">
 			<h4>
-				<a href="https://www.facebook.com/EventsAtiPlayAmerica/?ref=bookmarks" target="_blank"><i style="font-size:24px;" class="fab fa-facebook-square"></i></a>
+				<a href="https://www.facebook.com/EventsAtiPlayAmerica/?ref=bookmarks" target="_blank"><i  class="fab fa-facebook-square"></i></a>
 				&nbsp;
-				<a href="https://www.linkedin.com/showcase/the-event-center-ipa/" target="_blank"><i style="font-size:24px;" class="fab fa-linkedin-in"></i></a>
+				<a href="https://www.linkedin.com/showcase/the-event-center-ipa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 				&nbsp;
-				<a href="https://www.instagram.com/eventcenteratiplayamerica/" target="_blank"><i style="font-size:24px;" class="fab fa-instagram"></i></a>
+				<a href="https://www.instagram.com/eventcenteratiplayamerica/" target="_blank"><i class="fab fa-instagram"></i></a>
 				&nbsp;
 			</h4>
 		</div>
