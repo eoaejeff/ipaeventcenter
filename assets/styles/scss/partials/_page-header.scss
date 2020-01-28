@@ -53,6 +53,16 @@
 			transition:all 0.35s ease-out;
 		}
 	}
+	
+	@media (max-width:1205px) {
+		.main-navigation {
+			li {
+				a {
+					font-size:13px!important;
+				}
+			}
+		}
+	}
 }
 
 .top-bar-extras {
@@ -70,6 +80,9 @@
 				}
 				&:hover {
 					color:$secondary-color;
+				}
+				@media (max-width:1205px) {
+					font-size:10px;
 				}
 			}
 		}
