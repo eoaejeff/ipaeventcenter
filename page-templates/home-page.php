@@ -157,7 +157,7 @@ get_header();
 							<div class="cell large-7">
 								<div class="slide-content">
 									<h2>Bar Packages</h2>
-									<a href="/wp-content/uploads/2019/09/Bar-Packages.pdf" target="_blank" class="button" tabindex="0">SEE MENU</a>
+									<a href="/wp-content/uploads/2020/02/Bar-Packages-2020.2-No-Price.pdf" target="_blank" class="button" tabindex="0">SEE MENU</a>
 								</div>
 							</div>
 						</div>
