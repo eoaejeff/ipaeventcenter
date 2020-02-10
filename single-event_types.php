@@ -11,7 +11,7 @@
 			<div class="cell large-3 large-order-1 downloads" >
 				<div class="downloads_inner">
 					<?php if ( $post->ID == 960 ) { ?>
-					<h3>There is always a great event going on at The Event Center @iPA.</h3>
+					<h3>There is always a great event going on at The Event Center @iPA!</h3>
 						<a class="button" style="margin: 25px 0;" href="https://www.iplayamerica.com/concerts-events/" target="_blank" rel="noopener noreferrer">See Full Concert Lineup</a>
 					<?php  } else { ?>
 						<h3>PLAN YOUR EVENT</h3>
