@@ -18,6 +18,9 @@
 				<div class="downloads_inner">
 					<h3>There is always a great event going on at The Event Center @iPA!</h3>
 					<a class="button" style="margin: 25px 0;" href="https://www.iplayamerica.com/concerts-events/" target="_blank" rel="noopener noreferrer">See Full Concert Lineup</a>	
+					<hr>
+					<img src="/wp-content/uploads/2020/02/livenation-logo.png" alt="Live Nation Venue">
+					<img src="/wp-content/uploads/2020/02/ticketmaster-logo.png" alt="Ticketmaster">
 				</div>
 			</div>		
 		</div>
