@@ -1,6 +1,9 @@
 <?php 
+	
 	get_header();
-	/* Template Name: BOOKING AGENTS */
+	
+	/* Template Name: Booking Agents */
+	
 ?>
 
 <section class="page-content">
