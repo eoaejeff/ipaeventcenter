@@ -12,7 +12,7 @@ var gulp  = require('gulp'),
 // Modify these variables to match your project needs
 
 // Set local URL if using Browser-Sync
-const LOCAL_URL = 'https://new-event-center.local';
+const LOCAL_URL = 'http://theeventcenteratipa.local';
 
 // Set path to Foundation files
 const FOUNDATION = 'node_modules/foundation-sites';
