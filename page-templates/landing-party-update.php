@@ -1,13 +1,11 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 <?php
 /*
 * Template Name: Updated Party Landing Template
 */
 
+
 get_header(); ?>
-
-<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,600,700" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-
 
 <style>
 
