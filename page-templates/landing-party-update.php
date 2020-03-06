@@ -302,7 +302,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', end
 
     /** Event Center Styles **/
 
-    .main-header-bar-wrap { display:none; }
+    header.header { display:none; }
     .ast-container { width:100%; max-width:100%; padding:0px; margin:0px; }
     footer.footer { display:none; }
 
