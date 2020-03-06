@@ -107,7 +107,7 @@ get_header(); ?>
     }
     /** end fix **/
 
-/* button styles need to override foundation and default iplay stylesheet */
+	/* button styles need to override foundation and default iplay stylesheet */
     button, input[type="button"], input[type="reset"], input[type="submit"],
     .button, .button:visited {background: none; border: 1px solid transparent; color: #fff; box-shadow: none; border-radius: 3px; transition: .2s ease-in-out; font-family: 'Lato', sans-serif; font-weight: 900; font-size: 14px; text-align: center; padding: 15px 35px; min-width: 158px; position: relative; z-index: 1; text-decoration: none !important; -webkit-appearance: none; appearance: none; text-shadow: none; line-height: 1;}
 
@@ -116,11 +116,6 @@ get_header(); ?>
     /* end */
 
     button.button, input[type="button"].button, input[type="reset"].button, input[type="submit"].button {font-size: 26px; min-width: auto;}
-
-
-
-
-
 
     .button:before {content: ''; display: block; width: 100%; height: 100%; position: absolute; left: 0; top: 0; transition: .2s ease-in-out; z-index: -1;}
     .button:hover:before {opacity: 1 !important;}
@@ -309,7 +304,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', end
 
     .main-header-bar-wrap { display:none; }
     .ast-container { width:100%; max-width:100%; padding:0px; margin:0px; }
-    .ast-small-footer { display:none; }
+    footer.footer { display:none; }
 
     @media screen and (max-width: 1850px ) {
         h1 {font-size: 76px;}
