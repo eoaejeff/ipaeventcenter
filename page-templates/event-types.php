@@ -43,13 +43,12 @@ get_header();
 		<div class="grid-container">
 			
 			
-			
 			<div class="grid-x grid-margin-x grid-margin-y spaces-grid">
 				
 				<div class="cell small-12">
 				
-					<h2>Host Your Next Event With Us!</h2>
-			
+					<?php the_content(); ?>
+								
 				</div>
 		
 			<?php $select_event_spaces = get_field( 'select_event_types' ); ?>	
