@@ -435,10 +435,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', end
                <div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 mt-3">
 
                     <div class="site-logo">
-                        <a href="<?php echo site_url(); ?>">
-                            <!-- <img src="<?php echo site_url(); ?>/images/iplay-america-dark.svg" alt="iPlay America Logo"> -->
-                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/09/event-center-logo-2-165x88.png" alt="The Event Center">
-                        </a>
+                        <?php the_custom_logo(); ?>
                     </div>
 
                 </div>
