@@ -1040,7 +1040,7 @@ jQuery(document).ready(function($) {
         <div class="row">
             <div id="testimonials-section" class="col-12 col-sm-12 col-md-12 col-lg-12 offset-lg-0 col-xl-8 offset-xl-2 py-4 mt-5 text-center">
 
-                <h2 class="mb-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/open-quote.png" alt="open quote">&nbsp;What People are Saying about <span style="white-space: nowrap;">The Event Center<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/close-quote.png" alt="close quote"></span></h2>
+                <h2 class="mb-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/open-quote.png" alt="open quote">&nbsp;What People are Saying about <span style="white-space: nowrap;">The Event Center<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/close-quote.png" alt="close quote"></span></h2>
 
                 <div id="testimonials-slider" class="col-12 col-xl-10 offset-xl-1">
 
