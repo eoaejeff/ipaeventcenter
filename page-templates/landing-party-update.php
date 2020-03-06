@@ -6,6 +6,8 @@
 get_header(); ?>
 
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,600,700" rel="stylesheet">
+
 
 <style>
 
@@ -1114,5 +1116,7 @@ jQuery(document).ready(function($) {
 </script>
 <!-- Use fsLightbox3257098.show() or set handle: "ID" to open lightbox without using predefined handle -->
 <!-- End Lightbox -->
+
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>
 
 <?php get_footer(); ?>

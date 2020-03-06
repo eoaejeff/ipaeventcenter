@@ -1,5 +1,4 @@
 <?php
-	
 if (!function_exists("SanitizeInput")) {
     function SanitizeInput($string, $filter=true){
         if($filter){
