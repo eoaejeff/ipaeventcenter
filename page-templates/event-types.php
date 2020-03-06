@@ -17,8 +17,6 @@ get_header();
 			    <main class="main small-12 medium-12 large-12 cell" role="main">
 					
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	
-						<?php the_content(); ?>
 						
 						<?php if ( is_page( array( 'gallery' ) ) ) { ?>
 						
@@ -44,6 +42,12 @@ get_header();
 			
 			
 			<div class="grid-x grid-margin-x grid-margin-y spaces-grid">
+				
+				<div class="cell small-12">
+				
+					<?php the_content(); ?>
+								
+				</div>
 		
 			<?php $select_event_spaces = get_field( 'select_event_types' ); ?>	
 			
